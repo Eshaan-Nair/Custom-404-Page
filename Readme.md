@@ -4,6 +4,7 @@ A fun, animated 404 error page featuring a cute blue fluffy monster, inspired by
 ---
 
 ## Project Structure
+```
 404-Page/
 
 ├── index.html
@@ -11,11 +12,15 @@ A fun, animated 404 error page featuring a cute blue fluffy monster, inspired by
 ├── style.css
 
 └── assets/
+
     ├── background.jpg 
-    ├── 404.png
-    ├── clouds.png
-    └── character.mp4
     
+    ├── 404.png
+    
+    ├── clouds.png
+    
+    └── character.mp4
+```  
 
 ---
 
