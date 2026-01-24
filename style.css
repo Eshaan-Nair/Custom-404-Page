@@ -14,6 +14,20 @@ body {
     overflow: hidden;
 }
 
+/* Top-left branding */
+.brand-name {
+    position: fixed;
+    top: 20px;
+    left: 24px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: white;
+    letter-spacing: 0.5px;
+    z-index: 10;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
 .center-container {
     height: 100%;
     width: 100%;
@@ -135,5 +149,74 @@ body {
     }
     100% {
         opacity: 1;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .brand-name {
+        font-size: 1rem;
+        top: 16px;
+        left: 18px;
+    }
+
+    .error-wrapper {
+        width: 95%;
+    }
+
+    .error-image {
+        animation: none;
+        transform: translateY(-30px);
+    }
+
+    .mid-layer-image {
+        width: 300%;
+    }
+
+    .zero-video {
+        top: 45%;
+        height: 110%;
+    }
+
+    .text-content {
+        top: 125%;
+        width: 90%;
+    }
+
+    .text-content h2 {
+        font-size: 1.6rem;
+    }
+
+    .text-content p {
+        font-size: 1.1rem;
+    }
+
+    .home-button {
+        padding: 12px 28px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .mid-layer-image {
+        width: 350%;
+    }
+
+    .zero-video {
+        top: 48%;
+        height: 110%;
+    }
+
+    .text-content {
+        top: 135%;
+    }
+
+    .text-content h2 {
+        font-size: 1.4rem;
+    }
+
+    .text-content p {
+        font-size: 1rem;
     }
 }
